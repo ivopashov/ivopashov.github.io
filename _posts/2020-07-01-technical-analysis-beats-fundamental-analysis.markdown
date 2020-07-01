@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Technical analysis > fundamental analysis"
-date:   2020-06-30 08:00:00 +0300
+date:   2020-07-01 08:00:00 +0300
 categories: money
 tags: technical-analysis stocks fundamental-analysis
 ---
