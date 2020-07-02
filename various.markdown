@@ -1,7 +1,5 @@
 ---
-layout: page
+layout: various
 title: Various
 permalink: /various/
 ---
-
-Will list various posts here
