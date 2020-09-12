@@ -48,7 +48,6 @@ header_pages:
   - money.markdown
   - various.markdown
   - about.markdown
-  - buy-bitcoin.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
