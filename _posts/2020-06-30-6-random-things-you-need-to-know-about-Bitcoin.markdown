@@ -47,7 +47,6 @@ Bitcoin is not designed and can **not** be scalable. To remain decentralized and
 
 So Bitcoin is **not** good enough for everyday transactions. It is good for larger ones that can bare the fee and for store of value. Many see Bitcoin as payment system and say things like "Paypal is way cheaper/faster/convenient". And they are right. However, the elephant in the room is store of value in my opinion. That's where it really shines. Scalability for payments will come from protocols on top of Bitcoin like lightning network. A long way to go though, don't expect mass coffee buying with crypto in the next couple of years. It will come though.
 
-
 ## Open source
 
 Bitcoin is open source. Everyone can read the code, propose changes and make changes. Everyone in the world. And that is easy. It is hard to make others accept your changes (consensus, you know).
