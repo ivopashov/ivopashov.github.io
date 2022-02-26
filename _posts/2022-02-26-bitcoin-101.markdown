@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Bitcoin 101"
+date:   2022-02-26 08:00:00 +0200
+categories: money
+tags: bitcoin 101 education
+---
+
+Every now and then I talk Bitcoin with people. Mostly trying to "orange pill" them and little has changed, majority of people know so little about it.
+Mostly it is a "it does not seem I need it", "looks like a scam", "too expensive", more and more "bad for environment as it consumes so much energy" etc. This made me
+put together a little something to explain basic things in as simple way as possible.
+
+## What is Bitcoin?
+
+In short Bitcoin is a monetary system. It has the mechanism for people to store wealth and to transact. When we say Bitcoin, we mean the monetary network and the
+native token that comes with it. It does pretty much the same as traditional monetary systems (think banks, dollars, euro, SWIFT etc) BUT way better because:
+
+* It is open vs traditional monetary system being closed. Bitcoin network runs open source code where the monetary rules are defined and open for all to see. Example of that is that there will be no more than 21 mln Bitcoins ever. In traditional monetary system it is a handful (think central banks etc) of people making monetary decisions behind closed doors that apply to you and me.
+* It is decentralized and not controlled by anyone. Closely related to above.
+* It is permission-less. Everyone can transact with everyone. No bans, no sanctions are possible.
+* It is 24/7.
+* Bitcoin is scarce. There will be at most 21 mln Bitcoins. Compare that to fiat currencies where supply goes up constantly and value of dollar/euro etc goes down all the time.
+* Bitcoin is pseudo anonymous. You don't need to share ID/address etc to participate. You transact with your wallet address which is just a long sequence of characters.
+* Bitcoin is easy. Related to above, the only thing you need to transact and hold Bitcoin is a cheap phone and internet connection. Way easier than opening a bank account even in western countries.
+* Transacting with Bitcoin is cheap. With lightning (2nd layer protocol on top of Bitcoin), it is almost free to transact Bitcoin.
+
+## How does it function
+
+Let's dive deeper what happens when Joe sends 1BTC to Jane. First, both should have Bitcoin wallets. These are software applications that serve as interface to the
+Bitcoin network. In order for Jane to receive Bitcoin from Joe, she has to share her public address with him (think of it as postbox).
+
+Ok, Joe has Jane's public address and using his Bitcoin wallet, he transmits a transaction to the network (basically "pay 1BTC from this address to this address").
+When transaction is broadcasted, "miners" start trying to include it in the blockchain.
+
+Let's talk miners a bit. Miners are special computers that try to solve a really hard math problem on the Bitcoin network. The first that solves it, gets a "prize" (prize is just another monetary rule defined in code) + the fees of all the transaction it includes in the blockchain. This is how miners are incentivised. So consider they are in a type of competition at any point of time (24/7) so everyone tries to win a race every ~ 10 mins. A really hard one. The fastest gets the 💰. Simple as that. Bitcoin mining is intentionally hard and that makes network secure. Btw it is called mining as it imitates gold mining is a way (Bitcoin is Gold 2.0 contender).
+
+Let's talk blockchain a bit. Think of blockchain as a special database that transactions are recorded on. Everyone can download the blockchain and see all transactions that ever happened on the Bitcoin network. This is very important as everyone can verify every transaction. As I said above, Bitcoin is open book. Here come the nodes in the picture.
+
+Let's talk Bitcoin nodes a bit. Bitcoin nodes are special software applications that make sure that transactions comply to the Bitcoin network rules. As miners are incentivised by money, they have the incentive to include "bad" transactions. Like me paying 1BTC to someone even though I may not have the BTC to pay. Here come the nodes. They are the watchdog on the network and verify that rules are in place. If they see that some transaction is "bad", they have a special way to punish the "bad" miner so it makes no sense for miners to cheat. While it is quite expensive to run a miner (they consume a lot of energy and require special hardware) it is very cheap to run a Bitcoin node. You can run one on a conventional computer and many people do. As a matter of fact, there are tens of thousands of Bitcoin nodes. All of them have the whole blockchain (all transactions from day one) and verify all the transactions all the time as they happen.
+
+So let't recap so far. Joe uses his Bitcoin wallet to transmit a transaction on the Bitcoin network that says "pay 1BTC to this address (Jane's)". In the meantime, one of the miners wins the race (one race every ~ 10 mins) and records the transaction on the block chain. Thousands of nodes verify it. Jane's wallet shows 1BTC balance and Joe's one 1BTC less. The beauty of the whole thing is that this is open and driven by software with very clear rules.
+
+## So far so good but do I need it
+
+Fair point and it depends. The point is that if you come to the point where you absolutely need it, you are in trouble. For the folks living in western democracies, just look at how Canada freezed bank accounts of people that became inconvenient to the government. The truth is that if you tie your money to a private monetary system as the current banking system, you can be deplatformed at any time. You are just a "guest" and when you become inconvenient, your money can be expropriated in a moment. History knows a lot of such cases. Just consider what happens with all the Russian citizens with money in the bank if Russia gets cut from SWIFT. Toast.
+
+Another thing to consider is that most of the world does not live in democracy but in some form of dictatorship. China, Russia, a lot of Arab countries, large parts of Africa, Asia etc. Even if you are able to bank there, would you?
+
+Another big part of population does not have access to banking at all. Mostly the poor. Google Makoko slum in Nigeria. How do those people get a bank account when they don't have even an address? But guess what, a lot of of them have a cheap phone with internet so they can access the Bitcoin network without permission and transact on daily basis.
+
+So answer to "do I need it" is "it depends" but I can tell you, I lot of people absolutely need it.
+
+## But it is expensive
+
+At the time of writing, 1BTC is 40k USD or about 800B (billion) USD market cap. Is this expensive? I don't know. But want to give you some perspective.
+Apple is + 2T (trillion) USD company, Gold is ~ 10T, bond market is 120T. I think the minimum BTC can go to is trump Gold market cap or 10-12X from here. May sound crazy but there is every reason for that. Bitcoin is growing exponentially and solves a very important problem that has never been solved before. In terms of price Bitcoin has ever been "expensive". Even at 100 USD people were not buying as it was expensive. In retrospect, all is clear.
+
+## Bitcoin vs crypto
+
+This is one of the main misconceptions. Bitcoin is often bundled with crypto. It should not be. There is Bitcoin and everything else. Bitcoin IS THE ONLY decentralised crypto currency. Everything else is a good project at best or scam at worst. Don't fall for it.
+
+## Bad for environment?
+
+No. Bitcoin consumes a lot of energy. But that is a feature not a bug. The more energy it consumes, the more secure it is. Every progress requires energy and Bitcoin is no different. However, Bitcoin is run mostly on renewables. Why? They are cheap and miners are incentivised by profits. What a good thing to see. In some cases it is even carbon neutral as it runs on gas flares that would otherwise go in the atmosphere.
+
+There is a lot of wasted energy in the world. Like a lot. Also there is a lot of stranded energy. Energy that is there but can't be transported to users easily so it is untapped. Bitcoin boons on those two. In the first case, waste turns into profit. In the second you can use energy in the most remote land you can think of to mine Bitcoin. Think about Iceland geothermal energy. Otherwise this energy will be unused as it is hard to get it to consumers.
+
+## It is for criminals
+
+As much as cash is for criminals. We have come to the idea that it is ok for the banks, governments and companies to regulate the transactions and act as watchdogs and we must be opening our accounts on every request from above. That is not the case. I think it is fundamental right for anyone to transact with anyone in a private manner. Whether they commit crime or not is for the police to figure out. But it is not right to throw the baby with the bath water.
+
+## I am sold, how do I buy
+
+Easiest way for starters is through exchange. The bad part if the KYC. They require ID etc to get started with exchange so the privacy is bad. Don't get me wrong, that is needed only to convert fiat to Bitcoin, from then on you transact without the exchange.
+
+Better but a bit harder (and sometimes more expensive) way is to buy it from peers (friends that have some) or peer to peer exchanges as Bisq/Paxful. Both are very legit. You don't need to provide IDs or any sort of document for that.
